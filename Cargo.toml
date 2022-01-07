@@ -59,10 +59,10 @@ protobuf-codegen-pure = "2.14"
 
 # Uncomment this to test someone else's librustzcash changes in a branch
 [patch.crates-io]
-zcash_client_backend = {git = "https://github.com/Meshbits/librustzcash", branch = "gmale-autoshield-poc-daa-taddr3"}
-zcash_client_sqlite = {git = "https://github.com/Meshbits/librustzcash", branch = "gmale-autoshield-poc-daa-taddr3"}
-zcash_primitives = {git = "https://github.com/Meshbits/librustzcash", branch = "gmale-autoshield-poc-daa-taddr3"}
-zcash_proofs = {git = "https://github.com/Meshbits/librustzcash", branch = "gmale-autoshield-poc-daa-taddr3"}
+zcash_client_backend = {git = "https://github.com/PirateNetwork/librustzcash", rev = "a44462be027f67af1aa50d7983ca4e032078d0e2"}
+zcash_client_sqlite = {git = "https://github.com/PirateNetwork/librustzcash", rev = "a44462be027f67af1aa50d7983ca4e032078d0e2"}
+zcash_primitives = {git = "https://github.com/PirateNetwork/librustzcash", rev = "a44462be027f67af1aa50d7983ca4e032078d0e2"}
+zcash_proofs = {git = "https://github.com/PirateNetwork/librustzcash", rev = "a44462be027f67af1aa50d7983ca4e032078d0e2"}
 
 [features]
 mainnet = ["zcash_client_sqlite/mainnet"]
